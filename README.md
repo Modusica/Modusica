@@ -4,7 +4,8 @@
 > The goal is to create a flexible **host environment** where all features are modular, each provided by independently developed extensions. This architecture allows for a broad range of applications, from media players to complex development environments.  
   
 ## 🔥 Key Features  
-  
+
+- **Built on WPF**: Modusica leverages the power of **Windows Presentation Foundation** for its UI, allowing for flexible and scalable interfaces that can be dynamically extended and customized by individual extensions.  
 - **Modular Design**: All features are driven by extensions, allowing users to dynamically add and modify functionality.  
 - **Message-driven Architecture**: Uses **Command / Query / Event** patterns for communication between components.  
 - **UIItemTree**: A virtual UI structure that decouples UI from the core, enabling flexible interface management by extensions.  
